@@ -3,11 +3,23 @@
      -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size: cover;
+    height: 250px;
     /* background-size: 1440px;  */
 }
-.banner {
-    height: 250px;
+.searchform  {
+    margin-left: 330px;
+    margin-top: 10px;
+    /* padding-right: 5000px; */
 }
+
+.btn-primary {
+    margin-left: 310px;
+    margin-top: 10px;
+} 
+
 h1{
-text-align: center;
+color: rgb(86, 155, 219);
+text-shadow: 2px 2px rgb(64, 66, 211);
+margin-left: 420px;
+padding-top: 35px;
 }
