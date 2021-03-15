@@ -17,9 +17,10 @@
     margin-top: 10px;
 } 
 
-h1{
+.searchTitle{
 color: rgb(86, 155, 219);
 text-shadow: 2px 2px rgb(64, 66, 211);
-margin-left: 420px;
+margin-left: 435px;
 padding-top: 35px;
+font-size: 45px;
 }

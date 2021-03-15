@@ -2,6 +2,7 @@
 import "./style.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Banner(props) {
     return (
@@ -9,7 +10,7 @@ function Banner(props) {
         <div className="banner">
           {/* <div className="container"> */}
             <div className="row rowone">
-              <h1 className="pageTitle">Search any piece of art!</h1>
+              <h1 className="pageTitle redressed searchTitle">Search any piece of art!</h1>
             </div>
             <div className="container containersearch">
             <div className="row rowtwo">
@@ -18,7 +19,12 @@ function Banner(props) {
                 </input>
               </div>
               <div className="col-md-4">
-               <button className="btn srchbtn btn-primary"><FontAwesomeIcon icon={faSearch} /></button> 
+             
+          
+            <Link to="/results">
+            <button className="btn btn-primary"><FontAwesomeIcon icon={faSearch} /></button> 
+                 
+               </Link> 
               </div>
             </div>
           </div>

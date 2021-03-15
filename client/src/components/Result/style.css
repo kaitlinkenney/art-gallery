@@ -1,0 +1,13 @@
+.resultcontainer {
+    background-color: pink;
+    align-content: center;
+    margin-top: 40px;
+    /* margin-right: 100px !important; */
+   width: 800px !important;
+}
+
+.resultsheader {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
