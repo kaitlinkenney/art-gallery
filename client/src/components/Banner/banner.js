@@ -5,6 +5,10 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 function Banner(props) {
+
+
+
+
     return (
       <div>
         <div className="banner">
@@ -15,16 +19,20 @@ function Banner(props) {
             <div className="container containersearch">
             <div className="row rowtwo">
               <div className="col-md-4 colone">
-              <input className="form-control searchform"  placeholder="Search">
+              <input className="form-control"
+              type="text"
+              value={props.search}  
+              placeholder="Search"
+               onChange={props.handleSearch}>
                 </input>
               </div>
               <div className="col-md-4">
              
           
-            <Link to="/results">
+            {/* <Link to="/results">
             <button className="btn btn-primary"><FontAwesomeIcon icon={faSearch} /></button> 
                  
-               </Link> 
+               </Link>  */}
               </div>
             </div>
           </div>
