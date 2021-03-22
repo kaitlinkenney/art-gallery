@@ -13,7 +13,7 @@
 }
 
 .btn-primary {
-    margin-left: 310px;
+    margin-left: 320px;
     margin-top: 10px;
 } 
 
@@ -23,4 +23,8 @@ text-shadow: 2px 2px rgb(64, 66, 211);
 margin-left: 435px;
 padding-top: 35px;
 font-size: 45px;
+}
+
+.resultslink {
+    width: 10px;
 }
