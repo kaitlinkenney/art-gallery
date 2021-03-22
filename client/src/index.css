@@ -13,6 +13,11 @@ code {
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+.lora{
+  font-family: "Lora";
+}
 
 .redressed {
   font-family: "Redressed";

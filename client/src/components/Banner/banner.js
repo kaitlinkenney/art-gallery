@@ -29,19 +29,19 @@ function Banner(props) {
             <div className="col-md-4">
 
 <div className="row">
-              <a className="resultslink" href="/results">
+              {/* <a className="resultslink" href="/results"> */}
                 <button
 
-                  onClick={() => {
+                  onClick= {
 
-                    props.handleFormSubmit()
-                  }}
+                    props.handleFormSubmit
+                  }
                   className="btn btn-primary">
 
                   <FontAwesomeIcon icon={faSearch} />
 
                 </button>
-              </a>
+              {/* </a> */}
               </div>
             </div>
           </div>
