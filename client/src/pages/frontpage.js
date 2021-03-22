@@ -46,7 +46,7 @@ function FrontPage() {
                         title: search
                     }
                 }).on("complete", function(data, response) {
-                    setApi(data);
+                    console.log(data);
                 });
         }
     }
